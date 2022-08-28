@@ -607,7 +607,21 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+img{
+  vertical-align: middle;
+  max-width: 50%;
+}
+
+img:hover{
+  max-width: 70%;
+  transition: 0.9s;
+}
+
+.newContent{
+  display: flex;
+  flex-direction: row;
+}
+/* .skills .progress {
   height: 60px;
   display: block;
   background: none;
@@ -638,7 +652,7 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #0563bb;
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
